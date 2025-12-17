@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\ImGui">
+      <UniqueIdentifier>{3e96429d-e149-4635-bce7-332b8b30878f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ImGui_NotShxdow">
+      <UniqueIdentifier>{ee327082-6489-4856-a72d-8863a0efb1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ImGui_NotShxdow\UI">
+      <UniqueIdentifier>{8b110b85-c2da-4aed-912c-a60864072687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleApplication1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\notshxdow\imgui_1.cpp">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\notshxdow\imgui_draw_1.cpp">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\notshxdow\imgui_impl_dx11_1.cpp">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\notshxdow\imgui_impl_win32_1.cpp">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\notshxdow\imgui_tables_1.cpp">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\notshxdow\imgui_widgets_1.cpp">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\ui\ui.cpp">
+      <Filter>Resource Files\ImGui_NotShxdow\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\ui\tricks\imgui_tricks.cpp">
+      <Filter>Resource Files\ImGui_NotShxdow\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\custom_imgui.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_stdlib.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="renderstuff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\notshxdow\imconfig_1.h">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\notshxdow\imgui_1.h">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\notshxdow\imgui_impl_dx11_1.h">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\notshxdow\imgui_impl_win32_1.h">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\notshxdow\imgui_internal_1.h">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\notshxdow\imstb_rectpack_1.h">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\notshxdow\imstb_textedit_1.h">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\notshxdow\imstb_truetype_1.h">
+      <Filter>Resource Files\ImGui_NotShxdow</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ui\bytes.hpp">
+      <Filter>Resource Files\ImGui_NotShxdow\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ui\hashes.hpp">
+      <Filter>Resource Files\ImGui_NotShxdow\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ui\ui.hpp">
+      <Filter>Resource Files\ImGui_NotShxdow\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ui\glow\glow.hpp">
+      <Filter>Resource Files\ImGui_NotShxdow\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ui\tricks\imgui_tricks.hpp">
+      <Filter>Resource Files\ImGui_NotShxdow\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\bytes.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\custom_imgui.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_stdlib.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="BRAND.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decryption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
